@@ -6,8 +6,8 @@
     <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
     <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
     <link rel="icon" type="image/png" href="favicon-128.png" sizes="128x128" />
-    <title>Klekt - Monthly a vinyl on your doorstep</title>
     <link href='http://fonts.googleapis.com/css?family=Karla:400,700' rel='stylesheet' type='text/css'><head>
+    <title>KLEKT - Curated monthly vinyl to your doorstep</title>
     <link href='style.css' rel='stylesheet' type='text/css'>
     <script type="text/javascript" src="walkway/walkway.min.js"></script>
 </head>
@@ -31,10 +31,34 @@
         </g>
     </svg>
 
+    <style>
+      .share-buttons{
+        list-style: none;
+        padding-left: 0;
+      }
+
+      .share-buttons li{
+        display: inline;
+      }
+      .share-buttons img {
+        height: 4em;
+        padding: 1em 0.5em 0 0.5em;
+      }
+    </style>
+
     <h1 style="opacity:1;">Gotcha!</h1>
-    <p style="text-align:center;opacity:1">
+    <p class="aligncenter">
       We're happy to have you on our list!
     </p>
+    <p class="aligncenter">
+      Fact: sharing makes you instantly more awesome.
+    </p>
+    <ul class="share-buttons">
+      <li><a href="https://www.facebook.classom/sharer/sharer.php?u=http%3A%2F%2Fklekt.eu&t=Klekt%20-%20Curated%20monthly%20vinyl%20to%20your%20doorstep" target="_blank"><img src="smicons/fb.svg"></a></li>
+      <li><a href="https://twitter.com/intent/tweet?source=http%3A%2F%2Fklekt.eu&text=Klekt%20-%20Curated%20monthly%20vinyl%20to%20your%20doorstep:%20http%3A%2F%2Fklekt.eu&via=klekteu" target="_blank" title="Tweet"><img src="smicons/tw.svg"></a></li>
+      <li><a href="https://plus.google.com/share?url=http%3A%2F%2Fklekt.eu" target="_blank" title="Share on Google+"><img src="smicons/gplus.svg"></a></li>
+      <li><a href="http:/http/www.tumblr.com/share?v=3&u=http%3A%2F%2Fklekt.eu&t=Klekt%20-%20Curated%20monthly%20vinyl%20to%20your%20doorstep&s=" target="_blank" title="Post to Tumblr"><img src="smicons/tumblr.svg"></a></li>
+    </ul>
     <script>
       document.addEventListener('DOMContentLoaded', function() {
         var svg = new Walkway({selector: "#box", duration: 1200, easing: "easeInOutCubic"});
