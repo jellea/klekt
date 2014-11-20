@@ -58,7 +58,7 @@ h1 {
 
 input {
 	padding: 0.5em;
-	margin-top: 1.8em;
+	margin: 1.8em 0 1.8em 0;
 	font-family: Karla, Helvetica, Arial, sans;
 	color: #303030;
 	font-weight: bold;
@@ -95,6 +95,19 @@ input[type="submit"] {
 #mc_embed_signup {
 	text-align: left;
 }
+
+.aligncenter {
+  text-align: center;
+}
+
+a {
+    color: #303030;
+    /*text-decoration: none;
+    display:inline-block;
+    border-bottom: 1px solid black;
+    margin-bottom:0.7px;*/
+}
+
 /*animation*/
 
 @keyframes scale-in { from { transform: scale(0,0); } to {transform: scale(1,1); }  }
