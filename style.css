@@ -1,8 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+@media (max-width: 600px) {
+  p {
+    padding: 1.5em;
+    font-size: 1em;
+    margin: 0px;
+  }
+
+  #box {
+    width: 200px;
+    height: 250px;
+  }
+
+  body h1 {
+    margin: 0.7em 0 0.5em 0;
+  }
+
+  #mc_embed_signup {
+    margin: 0 1.5em 0 1.5em;
+  }
+
+  body #mc_embed_signup_scroll {
+    display: block;
+  }
+  body .button {  
+    width: 100%;
+    margin-left: 0;
+  }
+
+}
+
 body {
 	background-color: #12EBDC;
 	font-family: Karla, Helvetica, Arial, sans;
 	font-size: 18px;
-	line-height: 150%;
+	line-height: 1.5em;
 	text-align: center;
 	max-width: 550px;
 	margin: auto;
@@ -48,6 +82,10 @@ input[type="submit"] {
 }
 
 .button {
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  box-flex: 1;
+  flex: 1 1 auto;
 	border: 2px red solid;
 	height: 100%;
 	margin-left: 2em;
