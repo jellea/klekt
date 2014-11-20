@@ -22,14 +22,14 @@
     margin: 0 1.5em 0 1.5em;
   }
 
-  body #mc_embed_signup_scroll {
+  #mc_embed_signup_scroll {
     display: block;
   }
-  body .button {  
+
+  .button {
     width: 100%;
     margin-left: 0;
   }
-
 }
 
 body {
@@ -102,10 +102,6 @@ input[type="submit"] {
 
 a {
     color: #303030;
-    /*text-decoration: none;
-    display:inline-block;
-    border-bottom: 1px solid black;
-    margin-bottom:0.7px;*/
 }
 
 /*animation*/
@@ -124,11 +120,11 @@ a {
   -webkit-animation: scale-in 0.3s ease-out 1s 1 both;
 }
 
-h1 {animation: fade-in 0.6s ease-in 1.2s 1 both;
+.launch h1 {animation: fade-in 0.6s ease-in 1.2s 1 both;
 	   -webkit-animation: fade-in 0.6s ease-in 1.2s 1 both;}
-p {	animation: fade-in 0.4s ease-in 1.3s 1 both;
+.launch p {	animation: fade-in 0.4s ease-in 1.3s 1 both;
 	   -webkit-animation: fade-in 0.4s ease-in 1.3s 1 both;}
-div { animation: fade-in 0.4s ease-in 1.4s 1 both;
+.launch div { animation: fade-in 0.4s ease-in 1.4s 1 both;
 	   -webkit-animation: fade-in 0.2s ease-in 1.4s 1 both; }
 
 #vinyl {
