@@ -134,6 +134,7 @@ a {
 
 #mc_embed_signup_scroll {
 	display: -webkit-box;
+  width: 100%;
 	display: -moz-box;
 	display: box;
 }
